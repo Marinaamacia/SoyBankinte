@@ -1,0 +1,14 @@
+<svg id="Tarjetas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="114.081" viewBox="0 0 123 114.081">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_320" data-name="Rectángulo 320" width="123" height="114.081" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_642" data-name="Grupo 642" clip-path="url(#clip-path)">
+    <path id="Trazado_199" data-name="Trazado 199" d="M95.138,19.617V11.384A11.4,11.4,0,0,0,83.754,0H11.384A11.4,11.4,0,0,0,0,11.384v8.233Z" fill="#219c82"/>
+    <path id="Trazado_200" data-name="Trazado 200" d="M0,48.157v35.62A11.4,11.4,0,0,0,11.384,95.161h72.37A11.4,11.4,0,0,0,95.138,83.777V48.157Z" transform="translate(0 -19.326)" fill="#219c82"/>
+    <path id="Trazado_201" data-name="Trazado 201" d="M142.274,86.3V78.817c0-5.709-4.917-10.354-10.961-10.354H61.635c-6.044,0-10.961,4.645-10.961,10.354V86.3Z" transform="translate(-20.336 -27.475)" fill="#fff"/>
+    <path id="Trazado_202" data-name="Trazado 202" d="M50.674,108.262v34.791c0,5.709,4.917,12.749,10.961,12.749h69.678c6.044,0,10.961-7.039,10.961-12.749V108.262Z" transform="translate(-20.336 -43.446)" fill="#fff"/>
+    <path id="Trazado_203" data-name="Trazado 203" d="M129.106,64.508H61.519a13.276,13.276,0,0,0-13.261,13.26v48.94a13.276,13.276,0,0,0,13.261,13.26h67.587a13.275,13.275,0,0,0,13.26-13.26V77.768a13.275,13.275,0,0,0-13.26-13.26M61.519,73.629h67.587a4.144,4.144,0,0,1,4.14,4.139V83.38H57.379V77.768a4.144,4.144,0,0,1,4.14-4.139m67.587,57.219H61.519a4.145,4.145,0,0,1-4.14-4.14V92.36h75.867v34.348a4.145,4.145,0,0,1-4.14,4.14" transform="translate(-19.366 -25.888)" fill="#ff8500"/>
+  </g>
+</svg>

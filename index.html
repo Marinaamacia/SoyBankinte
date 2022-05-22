@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>SoyBankinter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--Carrusel-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").hide(1000);
+        });
+     });
+  </script>
+    <script src="lightbox2/js/lightbox-plus-jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div>
+            <a class="navbar-brand" href="#"><img id="logo" src="img/Logo.svg"></a>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desbloqueo">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="descarga" class="nav-link" href="#contacto">Descargar</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="navegacion" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+        </nav>
+    </header>
+    <main id="cabecera">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="palabras">Pensamos por y para ti,</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="palabras">Innovamos por y para ti,</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="palabras">Miramos por y para ti,</p>
+                </div> 
+            </div>
+        </div>
+        <h1>Soy Bankinter</h1>
+	</main>
+        <div class="container-fluid" id="carousel">
+        <div class="row">
+            <div class="col-12">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row" id="desbloqueo">
+                                <div class="col-sm-12 col-md-6">
+                                     <a href="img/img-4.jpg" data-lightbox="ejemplo">
+                                        <img class="img" src="img/img-4.png" alt="Beneficios">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 texto" id="columna1">
+                                    <h2>¿Qué podemos ofrecerte?</h2>
+                                    <h3>Opciones de desbloqueo</h3>
+                                    <p class="P-carrusel">Somos un banco que se esfuerza en facilitar las formas de acceso a nuestros clientes mediante clave pin o reconocimiento de voz.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row" id="ayuda">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="img/img-2.jpg" data-lightbox="ejemplo">
+                                        <img class="img" src="img/img-2.png" alt="Beneficios">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 texto">
+                                    <h2>¿Qué podemos ofrecerte?</h2>
+                                    <h3>Servicio de ayuda</h3>
+                                    <p class="P-carrusel">Una aplicación diseñada especialmente para ti, para sentirte acompañado durante tus gestiones bancarias.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row" id="visibilidad">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="img/img-3.jpg" data-lightbox="ejemplo">
+                                        <img class="img" src="img/img-3.png" alt="Beneficios">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 texto">
+                                    <h2>¿Qué podemos ofrecerte?</h2>
+                                    <h3>Seguridad</h3>
+                                    <p class="P-carrusel">Queremos mostrarte que puedes confiar en nosotros para hacer tus movimientos bancarios de una forma más sencilla.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row" id="visibilidad">
+                                <div class="col-sm-12 col-md-6">
+                                     <a href="img/img-1.jpg" data-lightbox="ejemplo">
+                                        <img class="img" src="img/img-1.png" alt="Beneficios">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 texto">
+                                    <h2>¿Qué podemos ofrecerte?</h2>
+                                    <h3>Visibilidad y legibilidad</h3>
+                                    <p class="P-carrusel">Creada con especial cuidado para que sea legible y empleando elementos reconocibles por todos los usuarios</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                   <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+        <section class="container-fluid" id="servicios">
+            <div class="row">
+                <div class=" col-12">
+                    <h3>Servicios</h3>
+                    <p>Te proporcionamos una serie de funcionalidades básicas y fáciles de utilizar en tu día a día.</p>
+                </div>
+
+                <div class="col-12">
+                    <div class="foto">
+                        <div>
+                            <img src= "img/imagen.svg" alt="ingresar dinero">
+                            <p>Ingresar dinero</p>
+                        </div>
+                        <div>
+                            <img src= "img/Pago Móvil.svg" alt="pago movil">
+                            <p>Pago movil</p>
+                        </div>
+                        <div class= " item_3"> 
+                          <img src= "img/Retirar dinero.svg"alt="retirar dinmero">
+                          <p>Retirar dinero</p>
+                     </div>
+                     <div>
+                          <img src= "img/Tarjetas.svg" alt="tarjeta">
+                          <p>Tarjetas</p>
+                      </div>
+                      <div>
+                           <img src= "img/Ver Cuentas.svg"alt="ver cuentas">
+                            <p>Ver cuentas</p>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <video width="1280" height="720" controls 
+        autoplay muted>
+            <source src="img/Spot_definitivo.mp4" type="video/mp4">
+            <source src="img/Spot_definitivo.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+    <footer class="container-fluid">
+        <div class="row" id="footer">
+            <div class="col-sm-12 col-md-7" id="familia">
+                <h2>Forma parte de nuestra familia</h2>
+                <p>Obtén nuestra aplicación para comenzar a disfrutar de los servicios que te mereces.</p>
+            </div>
+            <div class="col-sm-12 col-md-5" id="android">
+                <a href="#"><img src="img/boton descarga.png"></a>
+            </div>
+            
+        </div>
+        <div class="row" id="contacto">
+            <div class="col-sm-12 col-md-3">
+
+                <p>965 465 143</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <p>soybankinter@gmail.com</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <p>Síguenos en nuestras RRSS</p>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
